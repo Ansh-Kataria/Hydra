@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 3rem;
+  padding: 2rem;
 }
 
 .navbar-first {
@@ -63,12 +63,115 @@
   line-height: 15px;
   color: var(--color-white);
   padding: 16px 36px;
+  cursor: pointer;
 }
 
 .navbar-third-btn-Join {
   border: none;
   border-radius: 40px;
+  font-family: var(--font-famliy);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
   background: var(--gradient-btn);
   padding: 16px 37px;
+  cursor: pointer;
+}
 
+.navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  background: var(--color-menu);
+  color: var(--color-white);
+  text-align: end;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+
+.navbar-menu-container p{
+  margin: 1rem 0;
+}
+
+.navbar-menu-container-second {
+  display: none;
+  gap: 10px;
+  /* margin-left: 10px; */
+}
+
+
+@media screen and (max-width: 1075px) {
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-second {
+    display: none;
+  }
+
+  .navbar-third {
+    justify-content: flex-end;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .navbar-third {
+    display: none;
+  }
+
+  .navbar-menu-container-second {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .navbar-menu-btn-contact-us {
+    border: 2px solid var(--color-white);
+    border-radius: 40px;
+    background: none;
+    font-family: var(--font-famliy);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--color-white);
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .navbar-menu-btn-Join {
+    border: none;
+    border-radius: 40px;
+    font-family: var(--font-famliy);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    background: var(--gradient-btn);
+    padding: 16px;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .navbar {
+    padding: 1rem;
+  }
 }
