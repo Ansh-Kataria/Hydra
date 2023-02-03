@@ -76,6 +76,7 @@
   background: var(--gradient-btn);
   padding: 16px 37px;
   cursor: pointer;
+  color: var(--color-btn-font);
 }
 
 .navbar-menu {
