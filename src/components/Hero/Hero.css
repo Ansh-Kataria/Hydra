@@ -82,6 +82,7 @@
 .hero-first-left-third button {
   background: var(--gradient-btn);
   padding: 17px 36px;
+  border: none;
   border-radius: 40px;
   font-family: var(--font-famliy);
   font-style: normal;
@@ -110,6 +111,9 @@
 }
 
 .hero-first-right img {
-  width: 524px;
-  height: 455px;
+  position: absolute;
+width: 735.03px;
+height: 845px;
+left: 707.47px;
+top: 0px;
 }
