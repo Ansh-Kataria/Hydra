@@ -1,0 +1,22 @@
+.contact {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-famliy);
+    color: var(--color-white);
+}
+
+.contact-left img {
+    width: 70px;
+    height: 70px;
+}
+
+.contact-right-heading{
+    font-size: 13px;
+    /* line-height: 29px; */
+    font-weight: 700;
+}
+
+.contact-right-text{
+    font-weight: 400;
+    font-size: 10px;
+}

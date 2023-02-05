@@ -49,7 +49,7 @@ const Navbar = () => {
 
       <div className="navbar-third">
         <div className="navbar-third-div-contact-us">
-          <button className="navbar-third-btn-contact-us">CONTACT US</button>
+          <button className="navbar-third-btn-contact-us" id="contact-us-btn">CONTACT US</button>
         </div>
 
         <div className="navbar-third-div-Join">

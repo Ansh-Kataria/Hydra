@@ -1,6 +1,26 @@
 import React from "react";
 import "./Hero.css";
-import { hero, arrow } from "../../assets";
+import { hero, arrow, location, phone, mail } from "../../assets";
+import Contact from "../Contact/Contact";
+
+const contactData = [
+  {
+    icon: location,
+    heading: "Pay Us a Visit",
+    text: "Union St, Seattle, WA 98101, United States",
+  },
+  {
+    icon: phone,
+    heading: "Give Us a Call",
+    text: "(110) 1111-1010",
+  },
+
+  {
+    icon: mail,
+    heading: "Send Us a Message",
+    text: "Contact@HydraVTech.com",
+  },
+];
 
 const Hero = () => {
   return (
@@ -45,7 +65,16 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hero-second"></div>
+      <div className="hero-second">
+        {contactData.map((item, index) => (
+          <Contact
+            icon={item.icon}
+            heading={item.heading}
+            text={item.text}
+            key={index}
+          />
+        ))}
+      </div>
     </div>
   );
 };
