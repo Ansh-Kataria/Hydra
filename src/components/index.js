@@ -6,5 +6,4 @@ import Tech from "./Tech/Tech";
 import Process from "./Process/Process";
 import Join from "./Join/Join";
 import Footer from "./Footer/Footer";
-import Contact from "./Contact/Contact";
-export { Navbar, Hero, About, Services, Tech, Process, Join, Footer, Contact };
+export { Navbar, Hero, About, Services, Tech, Process, Join, Footer};

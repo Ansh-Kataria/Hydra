@@ -1,26 +1,6 @@
 import React from "react";
 import "./Hero.css";
 import { hero, arrow, location, phone, mail } from "../../assets";
-import Contact from "../Contact/Contact";
-
-const contactData = [
-  {
-    icon: location,
-    heading: "Pay Us a Visit",
-    text: "Union St, Seattle, WA 98101, United States",
-  },
-  {
-    icon: phone,
-    heading: "Give Us a Call",
-    text: "(110) 1111-1010",
-  },
-
-  {
-    icon: mail,
-    heading: "Send Us a Message",
-    text: "Contact@HydraVTech.com",
-  },
-];
 
 const Hero = () => {
   return (
@@ -66,14 +46,45 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-second">
-        {contactData.map((item, index) => (
-          <Contact
-            icon={item.icon}
-            heading={item.heading}
-            text={item.text}
-            key={index}
-          />
-        ))}
+        <div className="hero-second-location">
+          <div className="hero-second-location-left">
+            <img src={location} alt="location" />
+          </div>
+          <div className="hero-second-location-right">
+            <div className="hero-second-location-right-heading">
+              <p>Pay Us a Visit</p>
+            </div>
+            <div className="hero-second-location-right-text">
+              <p>Union St, Seattle, WA 98101, United States</p>
+            </div>
+          </div>
+        </div>
+        <div className="hero-second-phone">
+          <div className="hero-second-phone-left">
+            <img src={phone} alt="phone" />
+          </div>
+          <div className="hero-second-phone-right">
+            <div className="hero-second-phone-right-heading">
+              <p>Give Us a Call</p>
+            </div>
+            <div className="hero-second-phone-right-text">
+              <p>(110) 1111-1010</p>
+            </div>
+          </div>
+        </div>
+        <div className="hero-second-mail">
+          <div className="hero-second-mail-left">
+            <img src={mail} alt="mail" />
+          </div>
+          <div className="hero-second-mail-right">
+            <div className="hero-second-mail-right-heading">
+              <p>Send Us a Message</p>
+            </div>
+            <div className="hero-second-phone-right-text">
+              <p>Contact@HydraVTech.com</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
