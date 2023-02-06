@@ -1,0 +1,89 @@
+.about {
+  padding: 2rem 2rem;
+  font-family: var(--font-family);
+  color: var(--color-white);
+}
+
+.about-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.about-first-left {
+  flex: 60%;
+}
+
+.about-first-left-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.about-first-left-text {
+  display: flex;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  gap: 30px;
+}
+
+.about-first-left-text img {
+  height: 50px;
+  width: 30%;
+}
+
+.about-first-right {
+  flex: 40%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.about-second {
+  display: flex;
+}
+
+.about-second-left {
+  flex: 60%;
+}
+
+.about-second-right {
+  flex: 40%;
+}
+
+.about-second-right-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.about-second-right-subheading {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  padding-bottom: 44px;
+}
+
+.about-second-right-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  padding-bottom: 28px;
+}
+
+.about-second-right-btn button {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  background: var(--gradient-btn);
+  color: var(--color-btn-font);
+
+  border-radius: 40px;
+  padding: 17px 43px;
+}

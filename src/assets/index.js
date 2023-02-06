@@ -5,4 +5,6 @@ import arrow from "./arrow.png"
 import location from"./location.png"
 import phone from "./phoneCall.png"
 import mail from "./mail.png"
-export {logo, name, hero, arrow, location, phone, mail}
+import about from "./about.png"
+import long_arrow from "./long_arrow.png"
+export {logo, name, hero, arrow, location, phone, mail, about, long_arrow}
