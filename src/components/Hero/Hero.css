@@ -120,7 +120,7 @@
   border-radius: 90px;
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   padding: 2rem 0;
   /* ff 3.6+ */
   background: -moz-radial-gradient(
@@ -163,6 +163,7 @@
   align-items: center;
   padding: 2rem 4rem 2rem 0;
   border-right: 1px solid rgba(192, 183, 232, 0.33);
+  gap: 4px;
 }
 
 .hero-second-location-left img {
@@ -192,6 +193,7 @@
   display: flex;
   align-items: center;
   padding: 2rem 4rem 2rem 0;
+  gap: 16px;
 }
 
 .hero-second-phone-left img {
@@ -222,7 +224,7 @@
   align-items: center;
   padding: 2rem 0 2rem 4rem;
   border-left: 1px solid rgba(192, 183, 232, 0.33);
-
+  gap: 16px;
 }
 
 .hero-second-mail-left img {
