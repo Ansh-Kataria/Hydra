@@ -33,7 +33,7 @@
 .tech-first-icon{
     position: relative;
     bottom: -40px;
-    /* z-index: -1; */
+    cursor: pointer;
 }
 
 
