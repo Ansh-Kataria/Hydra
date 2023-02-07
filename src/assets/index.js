@@ -16,7 +16,8 @@ import unrealEngine from "./unrealEngine.png";
 import oculus from "./oculus.png";
 import unity from "./unity.png";
 import vive from "./vive.png";
-
+import arrowDown from "./arrowDown.png";
+import brands from "./brands.png";
 
 export {
   logo,
@@ -36,5 +37,7 @@ export {
   unrealEngine,
   oculus,
   unity,
-  vive
+  vive,
+  arrowDown,
+  brands,
 };
