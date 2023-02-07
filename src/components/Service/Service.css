@@ -1,0 +1,77 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 40px;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 61, 96, 1) 0%,
+    rgba(33, 30, 46, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 61, 96, 1) 0%,
+    rgba(33, 30, 46, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 61, 96, 1) 0%,
+    rgba(33, 30, 46, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 61, 96, 1) 0%,
+    rgba(33, 30, 46, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 61, 96, 1) 0%,
+    rgba(33, 30, 46, 1) 100%
+  );
+}
+
+.service-logo {
+  padding: 22px 45px;
+}
+
+.service-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.service-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 18px 35px 35px 25px;
+}
+
+.service-btn {
+  padding-bottom: 40px;
+}
+
+.service-btn button {
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-btn-font);
+
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  padding: 17px 39px;
+}

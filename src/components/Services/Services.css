@@ -1,0 +1,47 @@
+.services {
+  padding: 2rem 2rem;
+  font-family: var(--font-family);
+  color: var(--color-white);
+}
+
+.services-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.services-first-left {
+  flex: 60%;
+}
+
+.services-first-left-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.services-first-left-text {
+  display: flex;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  gap: 30px;
+}
+
+.services-first-left-text img {
+  height: 50px;
+  width: 30%;
+}
+
+.services-first-right {
+  flex: 40%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.services-second {
+  display: flex;
+  gap: 3rem;
+}
