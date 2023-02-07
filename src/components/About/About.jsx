@@ -4,7 +4,7 @@ import { long_arrow, about } from "../../assets";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-first">
         <div className="about-first-left">
           <div className="about-first-left-heading">

@@ -6,22 +6,22 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 const Menu = () => (
   <>
     <p>
-      <a href="#about" className="about">
+      <a href="#about" className="navbar-about">
         ABOUT
       </a>
     </p>
     <p>
-      <a href="#service" className="service">
+      <a href="#service" className="navbar-service">
         SERVICES
       </a>
     </p>
     <p>
-      <a href="#Technology" className="technology">
+      <a href="#Technology" className="navbar-technology">
         TECHNOLOGIES
       </a>
     </p>
     <p>
-      <a href="#Process" className="process">
+      <a href="#Process" className="navbar-process">
         PROCESS
       </a>
     </p>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
       <div className="navbar-third">
         <div className="navbar-third-div-contact-us">
-          <button className="navbar-third-btn-contact-us" id="contact-us-btn">CONTACT US</button>
+          <button className="navbar-third-btn-contact-us">CONTACT US</button>
         </div>
 
         <div className="navbar-third-div-Join">

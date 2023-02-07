@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hero-second">
+      <div className="hero-second" id="contact-us-btn">
         <div className="hero-second-location">
           <div className="hero-second-location-left">
             <img src={location} alt="location" />

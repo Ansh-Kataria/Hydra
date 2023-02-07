@@ -11,7 +11,7 @@ import {
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="service">
       <div className="services-first">
         <div className="services-first-left">
           <div className="services-first-left-heading">

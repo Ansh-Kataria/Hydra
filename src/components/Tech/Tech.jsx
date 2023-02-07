@@ -12,7 +12,7 @@ import {
 
 const Tech = () => {
   return (
-    <div className="tech">
+    <div className="tech" id="Technology">
       <div className="tech-first">
         <div className="tech-first-heading">
           <p>TECHNOLOGIES & HARDWARE</p>
