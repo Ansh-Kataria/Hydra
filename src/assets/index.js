@@ -18,6 +18,7 @@ import unity from "./unity.png";
 import vive from "./vive.png";
 import arrowDown from "./arrowDown.png";
 import brands from "./brands.png";
+import process from "./process.png";
 
 export {
   logo,
@@ -40,4 +41,5 @@ export {
   vive,
   arrowDown,
   brands,
+  process
 };

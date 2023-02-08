@@ -1,0 +1,50 @@
+.process {
+  padding: 0 2rem;
+  font-family: var(--font-family);
+  color: var(--color-white);
+}
+
+.process-first {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6rem;
+}
+
+.process-first-left {
+  flex: 60%;
+}
+
+.process-first-left-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.process-first-left-text {
+  display: flex;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  gap: 30px;
+}
+
+.process-first-left-text img {
+  height: 50px;
+  width: 30%;
+}
+
+.process-first-right {
+  flex: 40%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.process-second {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+    background-image: url("../../assets/process.png");
+    background-repeat: no-repeat;
+}
