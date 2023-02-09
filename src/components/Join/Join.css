@@ -61,7 +61,7 @@
   font-size: 36px;
   line-height: 44px;
 
-  padding: 30px 88px;
+  padding: 15px 88px;
 }
 
 .join-subheading {
@@ -152,9 +152,8 @@
 }
 
 .join-send-btn {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
-
 
 .join-send-btn input {
   font-weight: 700;
