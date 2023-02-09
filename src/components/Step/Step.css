@@ -14,6 +14,8 @@
   border-radius: 100%;
   width: 200px;
   height: 200px;
+
+  /* padding: 0 3rem; */
 }
 
 .step-heading {
@@ -23,12 +25,13 @@
 }
 
 .step-heading img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 
 .step-heading p {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
+  /* width: 75%; */
 }

@@ -7,6 +7,7 @@ const Step = ({ num, text }) => {
       <div className="step-circle">
         <p>{num}</p>
       </div>
+
       <div className="step-heading">
         <img src={arrow} alt="arrow" />
         <p>{text}</p>

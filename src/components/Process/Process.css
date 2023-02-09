@@ -1,5 +1,5 @@
 .process {
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   font-family: var(--font-family);
   color: var(--color-white);
 }
@@ -42,9 +42,33 @@
 }
 
 .process-second {
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 3rem;
-    background-image: url("../../assets/process.png");
-    background-repeat: no-repeat;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding: 0rem 1rem; */
+  background-image: url("../../assets/process.png");
+  background-repeat: no-repeat;
+}
+
+.process-second-first {
+  padding: 0 2rem;
+  width: 25%;
+}
+
+.process-second-second {
+  padding: 0 2rem;
+
+  width: 25%;
+}
+
+.process-second-third {
+  padding: 0 2rem;
+
+  width: 25%;
+}
+
+.process-second-forth {
+  padding: 0 2rem;
+
+  width: 25%;
 }
