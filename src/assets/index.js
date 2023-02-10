@@ -19,6 +19,13 @@ import vive from "./vive.png";
 import arrowDown from "./arrowDown.png";
 import brands from "./brands.png";
 import process from "./process.png";
+import footer from "./footer.png";
+import facebook from "./facebook.png";
+import instagram from "./instagram.png";
+import twitter from "./twitter.png";
+import youtube from "./youtube.png";
+import linkedin from "./linkedin.png";
+import pinterest from "./pinterest.png";
 
 export {
   logo,
@@ -41,5 +48,12 @@ export {
   vive,
   arrowDown,
   brands,
-  process
+  process,
+  footer,
+  facebook,
+  instagram,
+  youtube,
+  linkedin,
+  twitter,
+  pinterest,
 };

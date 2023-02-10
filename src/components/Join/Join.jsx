@@ -2,7 +2,7 @@ import React from "react";
 import "./Join.css";
 const Join = () => {
   return (
-    <div className="join">
+    <div className="join" id="JoinUs">
       <div className="join-box">
         <div className="join-heading">
           <p>JOIN HYDRA</p>
@@ -26,7 +26,7 @@ const Join = () => {
           <input type="text" placeholder="Tell Us Something..." />
         </div>
         <div className="join-send-btn">
-          <input type="submit" value="SEND TO HYDRA"/>
+          <input type="submit" value="SEND TO HYDRA" />
         </div>
       </div>
     </div>

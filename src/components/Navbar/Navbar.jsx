@@ -49,11 +49,15 @@ const Navbar = () => {
 
       <div className="navbar-third">
         <div className="navbar-third-div-contact-us">
-          <button className="navbar-third-btn-contact-us">CONTACT US</button>
+          <a href="#ContactUs">
+            <button className="navbar-third-btn-contact-us">CONTACT US</button>
+          </a>
         </div>
 
         <div className="navbar-third-div-Join">
-          <button className="navbar-third-btn-Join">JOIN HYDRA</button>
+          <a href="#JoinUs">
+            <button className="navbar-third-btn-Join">JOIN HYDRA</button>
+          </a>
         </div>
       </div>
 

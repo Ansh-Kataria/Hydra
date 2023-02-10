@@ -4,7 +4,7 @@ import { long_arrow } from "../../assets";
 import Step from "../Step/Step";
 const Process = () => {
   return (
-    <div className="process">
+    <div className="process" id="Process">
       <div className="process-first">
         <div className="process-first-left">
           <div className="process-first-left-heading">
