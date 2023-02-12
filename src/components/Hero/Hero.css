@@ -1,5 +1,6 @@
 .hero {
   padding: 1rem 2rem;
+  font-family: var(--font-family);
 }
 .hero-first {
   display: flex;
@@ -18,6 +19,9 @@
 .hero-first-left-heading {
   display: flex;
   flex-direction: column;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
 }
 
 .hero-first-left-heading-first {

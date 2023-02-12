@@ -17,7 +17,7 @@ const Join = () => {
         </div>
         <div className="join-contact">
           <input type="email" placeholder="Email" />
-          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Phone Number" />
         </div>
         <div className="join-subject">
           <input type="text" placeholder="Subject" />

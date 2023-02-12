@@ -65,6 +65,8 @@
 
   width: 75%;
   padding: 17px;
+
+  border: none;
 }
 
 .footer-copyright {
@@ -79,4 +81,38 @@
   letter-spacing: 0.13em;
 
   padding: 2rem 0;
+}
+
+@media screen and (max-width: 420px) {
+  .footer-first-line {
+    display: none;
+  }
+
+  .footer-first-menu {
+    display: none;
+  }
+
+  .footer-first-list {
+    display: none;
+  }
+
+  .footer-first {
+    flex-direction: column;
+  }
+
+  .footer-first-logo {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-first-social {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-first-social-icons{
+    padding-bottom: 24px;
+  }
 }
