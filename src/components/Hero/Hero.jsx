@@ -10,18 +10,18 @@ const Hero = () => {
           <div className="hero-first-left-heading">
             <div className="hero-first-left-heading-first">
               <div className="hero-first-left-heading-first-left">
-                <h1>Dive</h1>
+                <p>Dive</p>
               </div>
               <div className="hero-first-left-heading-first-right">
-                <h1>Into The Depths</h1>
+                <p>Into The Depths</p>
               </div>
             </div>
             <div className="hero-first-left-heading-second">
               <div className="hero-first-left-heading-second-left">
-                <h1>Of</h1>
+                <p>Of</p>
               </div>
               <div className="hero-first-left-heading-second-right">
-                <h1>Virtual Reality</h1>
+                <p>Virtual Reality</p>
               </div>
             </div>
           </div>

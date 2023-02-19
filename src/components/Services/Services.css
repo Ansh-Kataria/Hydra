@@ -43,5 +43,8 @@
 
 .services-second {
   display: flex;
-  gap: 3rem;
+}
+
+.services-second-service {
+  padding: 10px;
 }

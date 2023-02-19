@@ -34,7 +34,7 @@ const Services = () => {
         </div>
       </div>
       <div className="services-second">
-        <div className="services-second-simulation">
+        <div className="services-second-service">
           <Service
             logo={simulation}
             heading="SIMULATION"
@@ -44,7 +44,7 @@ libero justo laoreet sit amet vitae."
           />
         </div>
 
-        <div className="services-second-simulation">
+        <div className="services-second-service">
           <Service
             logo={education}
             heading="EDUCATION"
@@ -54,7 +54,7 @@ libero justo laoreet sit amet vitae."
           />
         </div>
 
-        <div className="services-second-simulation">
+        <div className="services-second-service">
           <Service
             logo={selfcare}
             heading="SELF-CARE"
@@ -64,7 +64,7 @@ libero justo laoreet sit amet vitae."
           />
         </div>
 
-        <div className="services-second-simulation">
+        <div className="services-second-service">
           <Service
             logo={outdoor}
             heading="OUTDOOR"
