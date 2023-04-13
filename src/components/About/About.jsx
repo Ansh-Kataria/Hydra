@@ -48,7 +48,7 @@ const About = () => {
               Aliquam etiam erat velit scelerisque in dictum non consectetur a.
               Laoreet sit amet cursus sit amet. eros donec ac odio tempor
               orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit
-              adipiscing bibendum. Leo a diam sollicitudi n tempor.
+              adipiscing bibendum. Leo a diam llicitudi n tempor.
             </p>
           </div>
           <div className="about-second-right-btn">
