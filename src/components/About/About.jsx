@@ -46,7 +46,7 @@ const About = () => {
               faucibus purus in massa. Est placerat in egestas erat imperdiet
               sed. Consequat semper viverra nam libero justo laoreet sit amet.
               Aliquam etiam erat velit scelerisque in dictum non consectetur a.
-              Laoreet sit amet cursus sit amet. eros donec ac odio tempor
+              Laoreet sit amet cursus sit amet. eros donec odio tempor
               orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit
               adipiscing bibendum. Leo a diam llicitudi n tempor.
             </p>
