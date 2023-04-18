@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="hero-first-left-text">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              <br /> sed do eiusmod tempor incididunt ut labore et dolore <br />{" "}
+              <br /> sed do eiusmod tempor labore et dolore <br />{" "}
               nisl tincidunt eget. Lectus mauris eros in vitae .
             </p>
           </div>
