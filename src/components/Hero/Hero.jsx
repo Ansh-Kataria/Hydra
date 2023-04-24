@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { hero, arrow, location, phone, mail } from "../../assets";
 
+
 const Hero = () => {
   return (
     <div className="hero">
