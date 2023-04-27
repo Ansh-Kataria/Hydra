@@ -33,7 +33,6 @@ const Hero = () => {
               nisl tincidunt eget. Lectus mauris eros in vitae .
             </p>
           </div>
-          
           <div className="hero-first-left-third">
             <button className="hero-first-left-third-btn">
               BUILD YOUR WORLD
