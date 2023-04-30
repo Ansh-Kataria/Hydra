@@ -30,7 +30,7 @@ const Hero = () => {
             <p>
               Lorem ipsum dolor  amet, consectetur adipiscing elit,
               <br /> sed do eiusmod tempor kgsafsfgsds et dolore <br />{" "}
-              nifsl tincidunt eget. Lectus mauris eros in vitae .
+              sl tincidunt eget. Lectus mauris eros in vitae .
             </p>
           </div>
           <div className="hero-first-left-third">
