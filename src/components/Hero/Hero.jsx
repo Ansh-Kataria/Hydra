@@ -32,6 +32,7 @@ const Hero = () => {
               <br /> sed do eiusmod tempor kgsafsfgsds et dolore <br />{" "}
               sl tincidunt ege Lectus mauris eros in vitae .
             </p>
+            
           </div>
           <div className="hero-first-left-third">
             <button className="hero-first-left-third-btn">
